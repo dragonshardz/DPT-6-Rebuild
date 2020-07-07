@@ -1,0 +1,12 @@
+{
+	"name": "cold_resistance",
+	"potion": "toughasnails:cold_resistance",
+	"amplifier": 0,
+	"minimum": 80,
+	"maximum": 100,
+	"detect": "any",
+	"nutrients": [
+		"spicy"
+	],
+	"enabled": true
+}

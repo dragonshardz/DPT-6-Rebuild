@@ -1,0 +1,12 @@
+{
+	"name": "heat_resistance",
+	"potion": "toughasnails:heat_resistance",
+	"amplifier": 0,
+	"minimum": 80,
+	"maximum": 100,
+	"detect": "any",
+	"nutrients": [
+		"quenchy"
+	],
+	"enabled": true
+}
