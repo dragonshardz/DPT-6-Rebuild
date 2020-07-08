@@ -13,7 +13,7 @@ var stickTitAl		= <ore:stickTitaniumAluminide>;
 var procCalculation	= <appliedenergistics2:material:23>;
 var procLogic		= <appliedenergistics2:material:22>;
 var procEngineering	= <appliedenergistics2:material:24>;
-var redstoneTimer	= <immersivetech:connectors>;
+var vacuumcircuit	= <immersiveengineering:material:27>;
 var ingotCobalt		= <ore:ingotCobalt>;
 var ingotTitAl		= <ore:ingotTitaniumAluminide>;
 var dustCarbon		= <ore:dustHOPGraphite>;
@@ -42,9 +42,9 @@ var workbench		= <ore:workbench>;
 var bit_chisel		= <chiselsandbits:chisel_diamond>;
 var blockSteel		= <ore:blockSteel>;
 var hardFluxCap		= <thermalexpansion:capacitor:1>;
-var glassPane		= <minecraft:glass_plane>;
+var glassPane		= <minecraft:glass_pane>;
 var brain			= <thaumcraft:brain>;
-var flesh			= <minecraft:rotted_flesh>;
+var flesh			= <minecraft:rotten_flesh>;
 var goldNugs		= <minecraft:gold_nugget>;
 var rocketSaw		= <advancedrocketry:sawbladeiron>;
 
@@ -118,7 +118,7 @@ recipes.addShaped(partTitanMesh * 4,
 	
 recipes.addShaped(partSSCircuit * 4,
 	[[ingotPlastic,procCalculation,ingotPlastic],
-	[procLogic,redstoneTimer,procEngineering],
+	[procLogic,vacuumcircuit,procEngineering],
 	[ingotPlastic,redstoneDust,ingotPlastic]]);
 	
 recipes.addShaped(partChromePlate * 2,
@@ -147,5 +147,5 @@ recipes.addShaped(partStorageCell * 2,
 	
 recipes.addShaped(partMicroECells * 4,
 	[[ingotPlastic,txCoil,ingotPlastic],
-	[null,enderPearl,chargedQuartz],
+	[receptionCoil,enderPearl,chargedQuartz],
 	[ingotPlastic,fluxCapacitor,ingotPlastic]]);

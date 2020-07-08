@@ -96,7 +96,7 @@ mods.immersiveengineering.CokeOven.removeRecipe(charcoal);
 mods.immersiveengineering.CokeOven.addRecipe(charcoal * 2, 200, <ore:logWood>, 2000);
 
 //add corn ethanol
-mods.immersiveengineering.Fermenter.addRecipe(<ediblebugs:vegetableoil>, <liquid:ethanol> * 120, <harvestcraft:cornitem>, 2048);
+mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 120, <harvestcraft:cornitem>, 2048);
 
 //add IP bitumen to TE bitumen oredict
 clathrateOil.add(<immersivepetroleum:material:0>);

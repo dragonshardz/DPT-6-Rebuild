@@ -57,10 +57,10 @@ recipes.addShaped("Rabbit Hide", rabbitHide,
 	[rabbitFoot, rabbitFoot]]);
 
 //craftable elytra
-//recipes.addShaped("Elytra", elytra,
-//	[[null, endereye, null],
-//	[rodSteel, thaumarmor, rodSteel],
-//	[leather, null, leather]]);
+recipes.addShaped("Elytra", elytra,
+	[[null, endereye, null],
+	[rodSteel, thaumarmor, rodSteel],
+	[leather, null, leather]]);
 
 // gear cast from stone gear
 Casting.addTableRecipe(<tconstruct:cast_custom:4>, <thermalfoundation:material:23>, <liquid:gold>, 144, true);

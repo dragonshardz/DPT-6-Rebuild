@@ -25,7 +25,7 @@ var stickWood		= <ore:stickWood>;
 var dyeYellow		= <ore:dyeYellow>;
 var fuckinBook		= <minecraft:book>;
 var livingwood		= <botania:livingwood>;
-var livingTwig		= <botania:livingwoodTwig>;
+var livingTwig		= <botania:manaresource:3>;
 var vines			= <minecraft:vine>;
 
 //#Outputs
@@ -33,13 +33,14 @@ var starlightWand	= <astralsorcery:itemwand>.withTag({astralsorcery: {}});
 var lookingGlass	= <astralsorcery:itemhandtelescope>;
 var totemStaff		= <totemic:totemic_staff>;
 var crystalEssence	= <ore:crystalEssence>;
+var magicBench		= <thaumcraft:arcane_workbench>;
 
 //add worldgen vis crystals to oredict
 crystalEssence.add(<thaumcraft:crystal_aer>,<thaumcraft:crystal_ignis>,<thaumcraft:crystal_aqua>,<thaumcraft:crystal_terra>,<thaumcraft:crystal_ordo>,<thaumcraft:crystal_perditio>,<thaumcraft:crystal_vitium>);
 	
 //alter totemic staff
-//recipes.remove(totemStaff);
-//recipes.addShaped("Totemic Staff", totemStaff,
+recipes.remove(totemStaff);
+recipes.addShaped("Totemic Staff", totemStaff,
 	[[null, crystalEssence, vines],
 	[null, livingTwig, null],
 	[livingTwig, null, feather]]);
