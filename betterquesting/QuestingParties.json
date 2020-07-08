@@ -1,0 +1,144 @@
+{
+  "parties:9": {
+    "0:10": {
+      "members:9": {
+        "0:10": {
+          "uuid:8": "359ed826-c65e-4eab-904c-8fc49d1348a4",
+          "status:8": "MEMBER"
+        },
+        "1:10": {
+          "uuid:8": "7c525898-f259-46fd-90ce-a256a0ad54ef",
+          "status:8": "OWNER"
+        }
+      },
+      "partyID:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "partysinglereward:1": 0,
+          "partysharelives:1": 0,
+          "name:8": "Silvergrad"
+        }
+      }
+    },
+    "1:10": {
+      "members:9": {
+        "0:10": {
+          "uuid:8": "fd7247a0-d27f-487e-bb56-af544a9dcae2",
+          "status:8": "MEMBER"
+        },
+        "1:10": {
+          "uuid:8": "7a932f6a-7eb6-4d5c-8862-79138ef33ede",
+          "status:8": "OWNER"
+        }
+      },
+      "partyID:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "partysinglereward:1": 0,
+          "partysharelives:1": 0,
+          "name:8": "Lizzy\u0027s Swamp"
+        }
+      }
+    },
+    "2:10": {
+      "members:9": {
+        "0:10": {
+          "uuid:8": "8e78f788-3c14-4e41-896b-358ae7845d27",
+          "status:8": "OWNER"
+        }
+      },
+      "partyID:3": 2,
+      "properties:10": {
+        "betterquesting:10": {
+          "partysinglereward:1": 0,
+          "partysharelives:1": 0,
+          "name:8": "Kara"
+        }
+      }
+    },
+    "3:10": {
+      "members:9": {
+        "0:10": {
+          "uuid:8": "aa739b38-70bf-4813-91dd-3dab2d0f6287",
+          "status:8": "OWNER"
+        },
+        "1:10": {
+          "uuid:8": "7468df18-de7a-4195-bd37-a1e6ccd6a145",
+          "status:8": "MEMBER"
+        }
+      },
+      "partyID:3": 3,
+      "properties:10": {
+        "betterquesting:10": {
+          "partysinglereward:1": 0,
+          "partysharelives:1": 0,
+          "name:8": "Fart"
+        }
+      }
+    },
+    "4:10": {
+      "members:9": {
+        "0:10": {
+          "uuid:8": "feb20887-d377-448e-ba17-ee3523ed8cc4",
+          "status:8": "OWNER"
+        }
+      },
+      "partyID:3": 4,
+      "properties:10": {
+        "betterquesting:10": {
+          "partysinglereward:1": 0,
+          "partysharelives:1": 0,
+          "name:8": "New Party"
+        }
+      }
+    },
+    "5:10": {
+      "members:9": {
+        "0:10": {
+          "uuid:8": "4f41ed12-2b4b-49f3-baea-55d3525ca8bf",
+          "status:8": "MEMBER"
+        },
+        "1:10": {
+          "uuid:8": "d307f9e6-6171-4a30-8729-9476c9fcc255",
+          "status:8": "MEMBER"
+        },
+        "2:10": {
+          "uuid:8": "48740b55-24b5-45b5-b5fa-6f6a85a1193f",
+          "status:8": "OWNER"
+        }
+      },
+      "partyID:3": 5,
+      "properties:10": {
+        "betterquesting:10": {
+          "partysinglereward:1": 0,
+          "partysharelives:1": 1,
+          "name:8": "Fuccbois"
+        }
+      }
+    },
+    "6:10": {
+      "members:9": {
+        "0:10": {
+          "uuid:8": "865b538e-78fb-46f3-96e9-f31d78a2b6dd",
+          "status:8": "OWNER"
+        },
+        "1:10": {
+          "uuid:8": "3d70d85a-9274-4e59-94c6-c73a1507a7f0",
+          "status:8": "MEMBER"
+        },
+        "2:10": {
+          "uuid:8": "e4f4cb4b-bee4-472a-9bcb-25dca2efceb4",
+          "status:8": "MEMBER"
+        }
+      },
+      "partyID:3": 6,
+      "properties:10": {
+        "betterquesting:10": {
+          "partysinglereward:1": 0,
+          "partysharelives:1": 0,
+          "name:8": "Pisstape is Real"
+        }
+      }
+    }
+  }
+}
