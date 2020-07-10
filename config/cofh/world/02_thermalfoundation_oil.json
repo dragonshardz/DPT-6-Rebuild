@@ -8,7 +8,7 @@
 				"material": [
 					"minecraft:sand",
 					"minecraft:sandstone",
-					"minecraft:stone"
+					"minecraft:stone:0"
 				],
 				"cluster-size": 16
 			},
@@ -46,7 +46,7 @@
 				"material": [
 					"minecraft:dirt",
 					"minecraft:gravel",
-					"minecraft:stone"
+					"minecraft:stone:0"
 				],
 				"cluster-size": 16
 			},
@@ -97,7 +97,7 @@
 				"material": [
 					"minecraft:sand",
 					"minecraft:sandstone",
-					"minecraft:stone"
+					"minecraft:stone:0"
 				],
 				"hollow": "true",
 				"filler": "thermalfoundation:fluid_crude_oil",
@@ -144,11 +144,11 @@
 				"material": [
 					"minecraft:dirt",
 					"minecraft:gravel",
-					"minecraft:stone"
+					"minecraft:stone:0"
 				],
 				"hollow": "true",
 				"filler": "thermalfoundation:fluid_crude_oil",
-				"crust": "minecraft:stone"
+				"crust": "minecraft:stone:0"
 			},
 			"cluster-count": 2,
 			"chunk-chance": 50,

@@ -4,7 +4,7 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "diamond_ore",
-				"material": "minecraft:stone",
+				"material": "minecraft:stone:0",
 				"cluster-size": 2
 			},
 			"cluster-count": 1,
@@ -28,7 +28,7 @@
 					"name": "immersiveengineering:ore",
 					"metadata": 5
 				},
-				"material": "minecraft:stone",
+				"material": "minecraft:stone:0",
 				"cluster-size": 7
 			},
 			"cluster-count": 3,
@@ -263,7 +263,7 @@
 				"hollow": "false",
 				"crust": "minecraft:obsidian",
 				"material":[
-					"minecraft:stone", 
+					"minecraft:stone:0", 
 					"minecraft:grass", 
 					"minecraft:dirt", 
 					"minecraft:gravel", 
@@ -303,7 +303,7 @@
 					"name": "nuclearcraft:ore",
 					"metadata": 7
 				},
-				"material": "minecraft:stone",
+				"material": "minecraft:stone:0",
 				"cluster-size": 9
 			},
 			"cluster-count": 9,
@@ -328,7 +328,7 @@
 					"name": "nuclearcraft:ore",
 					"metadata": 6
 				},
-				"material": "minecraft:stone",
+				"material": "minecraft:stone:0",
 				"cluster-size": 9
 			},
 			"cluster-count": 2,
@@ -353,7 +353,7 @@
 					"name": "nuclearcraft:ore",
 					"metadata": 3
 				},
-				"material": "minecraft:stone",
+				"material": "minecraft:stone:0",
 				"cluster-size": 8
 			},
 			"cluster-count": 6,
@@ -378,7 +378,7 @@
 					"name": "nuclearcraft:ore",
 					"metadata": 5
 				},
-				"material": "minecraft:stone",
+				"material": "minecraft:stone:0",
 				"cluster-size": 12
 			},
 			"cluster-count": 14,
@@ -403,7 +403,7 @@
 					"name": "libvulpes:ore0",
 					"metadata": 8
 				},
-				"material": "minecraft:stone",
+				"material": "minecraft:stone:0",
 				"cluster-size": 12
 			},
 			"cluster-count": 12,
@@ -428,7 +428,7 @@
 					"name": "libvulpes:ore0",
 					"metadata": 0
 				},
-				"material": "minecraft:stone",
+				"material": "minecraft:stone:0",
 				"cluster-size": 10
 			},
 			"cluster-count": 3,
@@ -458,7 +458,7 @@
 						"weight": 8
 					}
 				],
-				"material": "minecraft:stone",
+				"material": "minecraft:stone:0",
 				"cluster-size": 7
 			},
 			"cluster-count": 3,
