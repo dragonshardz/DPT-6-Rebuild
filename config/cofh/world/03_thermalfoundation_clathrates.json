@@ -15,7 +15,10 @@
 						"weight": 10
 					}
 				],
-				"material": "minecraft:stone:0",
+				"material": {
+					"name":"minecraft:stone",
+					"properties":0
+				},
 				"cluster-size": 16
 			},
 			"cluster-count": 2,

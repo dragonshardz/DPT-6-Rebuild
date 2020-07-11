@@ -4,7 +4,10 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "sand",
-				"material": "stone",
+				"material": {
+					"name":"minecraft:stone",
+					"properties":0
+				},
 				"cluster-size": 25
 			},
 			"cluster-count": 4,
@@ -24,7 +27,10 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "clay",
-				"material": "stone",
+				"material": {
+					"name":"minecraft:stone",
+					"properties":0
+				},
 				"cluster-size": 15
 			},
 			"cluster-count": 5,
@@ -48,7 +54,10 @@
 					"metadata": 4,
 					"weight": 20
 				},
-				"material": "stone",
+				"material": {
+					"name":"minecraft:stone",
+					"properties":0
+				},
 				"cluster-size": 6
 			},
 			"cluster-count": 5,

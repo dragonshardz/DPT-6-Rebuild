@@ -7,7 +7,10 @@
 					"name": "chisel:basalt2",
 					"metadata": 7
 				},
-				"material": "minecraft:stone",
+				"material": {
+					"name":"minecraft:stone",
+					"properties":0
+				},
 				"cluster-size": 148
 			},
 			"cluster-count": 1,
@@ -30,7 +33,10 @@
 					"name": "chisel:limestone2",
 					"metadata": 7
 				},
-				"material": "minecraft:stone",
+				"material": {
+					"name":"minecraft:stone",
+					"properties":0
+				},
 				"cluster-size": 350
 			},
 			"cluster-count": 1,
@@ -54,7 +60,10 @@
 					"name": "chisel:marble2",
 					"metadata": 7
 				},
-				"material": "minecraft:stone",
+				"material": {
+					"name":"minecraft:stone",
+					"properties":0
+				},
 				"cluster-size": 500
 			},
 			"cluster-count": 1,
@@ -75,7 +84,10 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "earthworks:block_slate",
-				"material": "minecraft:stone",
+				"material": {
+					"name":"minecraft:stone",
+					"properties":0
+				},
 				"cluster-size": 400
 			},
 			"cluster-count": 1,
@@ -96,7 +108,10 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "earthworks:block_slate_green",
-				"material": "minecraft:stone",
+				"material": {
+					"name":"minecraft:stone",
+					"properties":0
+				},
 				"cluster-size": 400
 			},
 			"cluster-count": 1,
@@ -117,7 +132,10 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "earthworks:block_slate_purple",
-				"material": "minecraft:stone",
+				"material": {
+					"name":"minecraft:stone",
+					"properties":0
+				},
 				"cluster-size": 400
 			},
 			"cluster-count": 1,

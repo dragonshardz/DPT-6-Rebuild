@@ -4,7 +4,10 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "diamond_ore",
-				"material": "minecraft:stone:0",
+				"material": {
+					"name":"minecraft:stone",
+					"properties":0
+				},
 				"cluster-size": 2
 			},
 			"cluster-count": 1,
@@ -28,7 +31,10 @@
 					"name": "immersiveengineering:ore",
 					"metadata": 5
 				},
-				"material": "minecraft:stone:0",
+				"material": {
+					"name":"minecraft:stone",
+					"properties":0
+				},
 				"cluster-size": 7
 			},
 			"cluster-count": 3,
@@ -50,7 +56,9 @@
 				"type": "decoration",
 				"block": "thaumcraft:crystal_aer",
 				"surface": [
-					"minecraft:stonebrick"
+					"advancedrocketry:moonturf",
+					"advancedrocketry:vitrifiedsand",
+					"advancedrocketry:hotturf"
 				],
 				"see-sky": "false",
 				"check-stay": "false",
@@ -60,15 +68,12 @@
 			"cluster-count": 5,
 			"min-height": 10,
 			"max-height": 255,
-			"retrogen": "false",
+			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1,
-					2,
-					-42
+					69
 				]
 			}
 		},
@@ -78,7 +83,9 @@
 				"type": "decoration",
 				"block": "thaumcraft:crystal_ignis",
 				"surface": [
-					"minecraft:stonebrick"
+					"advancedrocketry:moonturf",
+					"advancedrocketry:vitrifiedsand",
+					"advancedrocketry:hotturf"
 				],
 				"see-sky": "false",
 				"check-stay": "false",
@@ -88,15 +95,12 @@
 			"cluster-count": 5,
 			"min-height": 10,
 			"max-height": 255,
-			"retrogen": "false",
+			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1,
-					2,
-					-42
+					69
 				]
 			}
 		},
@@ -106,7 +110,9 @@
 				"type": "decoration",
 				"block": "thaumcraft:crystal_aqua",
 				"surface": [
-					"minecraft:stonebrick"
+					"advancedrocketry:moonturf",
+					"advancedrocketry:vitrifiedsand",
+					"advancedrocketry:hotturf"
 				],
 				"see-sky": "false",
 				"check-stay": "false",
@@ -116,15 +122,12 @@
 			"cluster-count": 5,
 			"min-height": 10,
 			"max-height": 255,
-			"retrogen": "false",
+			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1,
-					2,
-					-42
+					69
 				]
 			}
 		},
@@ -134,7 +137,9 @@
 				"type": "decoration",
 				"block": "thaumcraft:crystal_terra",
 				"surface": [
-					"minecraft:stonebrick"
+					"advancedrocketry:moonturf",
+					"advancedrocketry:vitrifiedsand",
+					"advancedrocketry:hotturf"
 				],
 				"see-sky": "false",
 				"check-stay": "false",
@@ -144,15 +149,12 @@
 			"cluster-count": 5,
 			"min-height": 10,
 			"max-height": 255,
-			"retrogen": "false",
+			"retrogen": "true",
 			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
+		    "dimension": {
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1,
-					2,
-					-42
+					69
 				]
 			}
 		},
@@ -162,7 +164,11 @@
 				"type": "decoration",
 				"block": "thaumcraft:crystal_ordo",
 				"surface": [
-					"minecraft:stonebrick"
+					{"name":"minecraft:stone",
+					"properties":3
+					},
+					"advancedrocketry:vitrifiedsand",
+					"advancedrocketry:hotturf"
 				],
 				"see-sky": "false",
 				"check-stay": "false",
@@ -172,15 +178,12 @@
 			"cluster-count": 5,
 			"min-height": 10,
 			"max-height": 255,
-			"retrogen": "false",
+			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1,
-					2,
-					-42
+					69
 				]
 			}
 		},
@@ -190,7 +193,11 @@
 				"type": "decoration",
 				"block": "thaumcraft:crystal_perditio",
 				"surface": [
-					"minecraft:stonebrick"
+					{"name":"minecraft:stone",
+					"properties":3
+					},
+					"advancedrocketry:vitrifiedsand",
+					"advancedrocketry:hotturf"
 				],
 				"see-sky": "false",
 				"check-stay": "false",
@@ -200,15 +207,12 @@
 			"cluster-count": 5,
 			"min-height": 10,
 			"max-height": 255,
-			"retrogen": "false",
+			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1,
-					2,
-					-42
+					69
 				]
 			}
 		},
@@ -218,7 +222,10 @@
 				"type": "decoration",
 				"block": "thaumcraft:crystal_vitium",
 				"surface": [
-					"minecraft:stonebrick"
+					"advancedrocketry:moonturf_dark",
+					{"name":"minecraft:stone",
+					"properties":3
+					}
 				],
 				"see-sky": "false",
 				"check-stay": "false",
@@ -228,15 +235,12 @@
 			"cluster-count": 5,
 			"min-height": 0,
 			"max-height": 255,
-			"retrogen": "false",
+			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1,
-					2,
-					-42
+					69
 				]
 			}
 		},
@@ -263,7 +267,7 @@
 				"hollow": "false",
 				"crust": "minecraft:obsidian",
 				"material":[
-					"minecraft:stone:0", 
+					"minecraft:stone", 
 					"minecraft:grass", 
 					"minecraft:dirt", 
 					"minecraft:gravel", 
@@ -303,7 +307,10 @@
 					"name": "nuclearcraft:ore",
 					"metadata": 7
 				},
-				"material": "minecraft:stone:0",
+				"material": {
+					"name":"minecraft:stone",
+					"properties":0
+				},
 				"cluster-size": 9
 			},
 			"cluster-count": 9,
@@ -328,7 +335,10 @@
 					"name": "nuclearcraft:ore",
 					"metadata": 6
 				},
-				"material": "minecraft:stone:0",
+				"material": {
+					"name":"minecraft:stone",
+					"properties":0
+				},
 				"cluster-size": 9
 			},
 			"cluster-count": 2,
@@ -353,7 +363,10 @@
 					"name": "nuclearcraft:ore",
 					"metadata": 3
 				},
-				"material": "minecraft:stone:0",
+				"material": {
+					"name":"minecraft:stone",
+					"properties":0
+				},
 				"cluster-size": 8
 			},
 			"cluster-count": 6,
@@ -378,7 +391,10 @@
 					"name": "nuclearcraft:ore",
 					"metadata": 5
 				},
-				"material": "minecraft:stone:0",
+				"material": {
+					"name":"minecraft:stone",
+					"properties":0
+				},
 				"cluster-size": 12
 			},
 			"cluster-count": 14,
@@ -403,7 +419,10 @@
 					"name": "libvulpes:ore0",
 					"metadata": 8
 				},
-				"material": "minecraft:stone:0",
+				"material": {
+					"name":"minecraft:stone",
+					"properties":0
+				},
 				"cluster-size": 12
 			},
 			"cluster-count": 12,
@@ -428,7 +447,10 @@
 					"name": "libvulpes:ore0",
 					"metadata": 0
 				},
-				"material": "minecraft:stone:0",
+				"material": {
+					"name":"minecraft:stone",
+					"properties":0
+				},
 				"cluster-size": 10
 			},
 			"cluster-count": 3,
@@ -458,7 +480,10 @@
 						"weight": 8
 					}
 				],
-				"material": "minecraft:stone:0",
+				"material": {
+					"name":"minecraft:stone",
+					"properties":0
+				},
 				"cluster-size": 7
 			},
 			"cluster-count": 3,
