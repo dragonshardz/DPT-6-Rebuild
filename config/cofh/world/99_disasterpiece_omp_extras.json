@@ -56,9 +56,8 @@
 				"type": "decoration",
 				"block": "thaumcraft:crystal_aer",
 				"surface": [
-					"advancedrocketry:moonturf",
-					"advancedrocketry:vitrifiedsand",
-					"advancedrocketry:hotturf"
+					"thaumcraft:stone_porous",
+					"minecraft:end_stone"
 				],
 				"see-sky": "false",
 				"check-stay": "false",
@@ -73,7 +72,8 @@
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
-					0
+					0,
+					1
 				]
 			}
 		},
@@ -83,9 +83,8 @@
 				"type": "decoration",
 				"block": "thaumcraft:crystal_ignis",
 				"surface": [
-					"advancedrocketry:moonturf",
-					"advancedrocketry:vitrifiedsand",
-					"advancedrocketry:hotturf"
+					"thaumcraft:stone_porous",
+					"minecraft:end_stone"
 				],
 				"see-sky": "false",
 				"check-stay": "false",
@@ -100,7 +99,8 @@
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
-					0
+					0,
+					1
 				]
 			}
 		},
@@ -110,9 +110,8 @@
 				"type": "decoration",
 				"block": "thaumcraft:crystal_aqua",
 				"surface": [
-					"advancedrocketry:moonturf",
-					"advancedrocketry:vitrifiedsand",
-					"advancedrocketry:hotturf"
+					"thaumcraft:stone_porous",
+					"minecraft:end_stone"
 				],
 				"see-sky": "false",
 				"check-stay": "false",
@@ -127,7 +126,8 @@
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
-					0
+					0,
+					1
 				]
 			}
 		},
@@ -137,9 +137,8 @@
 				"type": "decoration",
 				"block": "thaumcraft:crystal_terra",
 				"surface": [
-					"advancedrocketry:moonturf",
-					"advancedrocketry:vitrifiedsand",
-					"advancedrocketry:hotturf"
+					"thaumcraft:stone_porous",
+					"minecraft:end_stone"
 				],
 				"see-sky": "false",
 				"check-stay": "false",
@@ -154,7 +153,8 @@
 		    "dimension": {
 				"restriction": "blacklist",
 				"value": [
-					0
+					0,
+					1
 				]
 			}
 		},
@@ -164,11 +164,8 @@
 				"type": "decoration",
 				"block": "thaumcraft:crystal_ordo",
 				"surface": [
-					{"name":"minecraft:stone",
-					"properties":3
-					},
-					"advancedrocketry:vitrifiedsand",
-					"advancedrocketry:hotturf"
+					"thaumcraft:stone_porous",
+					"minecraft:end_stone"
 				],
 				"see-sky": "false",
 				"check-stay": "false",
@@ -183,7 +180,8 @@
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
-					0
+					0,
+					1
 				]
 			}
 		},
@@ -193,11 +191,8 @@
 				"type": "decoration",
 				"block": "thaumcraft:crystal_perditio",
 				"surface": [
-					{"name":"minecraft:stone",
-					"properties":3
-					},
-					"advancedrocketry:vitrifiedsand",
-					"advancedrocketry:hotturf"
+					"thaumcraft:stone_porous",
+					"minecraft:end_stone"
 				],
 				"see-sky": "false",
 				"check-stay": "false",
@@ -212,7 +207,8 @@
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
-					0
+					0,
+					1
 				]
 			}
 		},
@@ -222,10 +218,8 @@
 				"type": "decoration",
 				"block": "thaumcraft:crystal_vitium",
 				"surface": [
-					"advancedrocketry:moonturf_dark",
-					{"name":"minecraft:stone",
-					"properties":3
-					}
+					"thaumcraft:stone_porous",
+					"minecraft:end_stone"
 				],
 				"see-sky": "false",
 				"check-stay": "false",
@@ -240,7 +234,8 @@
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
-					0
+					0,
+					1
 				]
 			}
 		},
