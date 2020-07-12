@@ -62,9 +62,9 @@
 				"see-sky": "false",
 				"check-stay": "false",
 				"material": "minecraft:air",
-				"cluster-size": 8
+				"cluster-size": 16
 			},
-			"cluster-count": 5,
+			"cluster-count": 20,
 			"min-height": 10,
 			"max-height": 255,
 			"retrogen": "true",
@@ -89,9 +89,9 @@
 				"see-sky": "false",
 				"check-stay": "false",
 				"material": "minecraft:air",
-				"cluster-size": 8
+				"cluster-size": 16
 			},
-			"cluster-count": 5,
+			"cluster-count": 20,
 			"min-height": 10,
 			"max-height": 255,
 			"retrogen": "true",
@@ -113,12 +113,12 @@
 					"thaumcraft:stone_porous",
 					"minecraft:end_stone"
 				],
-				"see-sky": "false",
+			    "see-sky": "false",
 				"check-stay": "false",
 				"material": "minecraft:air",
-				"cluster-size": 8
+				"cluster-size": 16
 			},
-			"cluster-count": 5,
+			"cluster-count": 20,
 			"min-height": 10,
 			"max-height": 255,
 			"retrogen": "true",
@@ -143,9 +143,9 @@
 				"see-sky": "false",
 				"check-stay": "false",
 				"material": "minecraft:air",
-				"cluster-size": 8
+				"cluster-size": 16
 			},
-			"cluster-count": 5,
+			"cluster-count": 20,
 			"min-height": 10,
 			"max-height": 255,
 			"retrogen": "true",
@@ -170,9 +170,9 @@
 				"see-sky": "false",
 				"check-stay": "false",
 				"material": "minecraft:air",
-				"cluster-size": 8
+				"cluster-size": 16
 			},
-			"cluster-count": 5,
+			"cluster-count": 20,
 			"min-height": 10,
 			"max-height": 255,
 			"retrogen": "true",
@@ -197,9 +197,9 @@
 				"see-sky": "false",
 				"check-stay": "false",
 				"material": "minecraft:air",
-				"cluster-size": 8
+				"cluster-size": 16
 			},
-			"cluster-count": 5,
+			"cluster-count": 20,
 			"min-height": 10,
 			"max-height": 255,
 			"retrogen": "true",
@@ -224,9 +224,9 @@
 				"see-sky": "false",
 				"check-stay": "false",
 				"material": "minecraft:air",
-				"cluster-size": 8
+				"cluster-size": 16
 			},
-			"cluster-count": 5,
+			"cluster-count": 20,
 			"min-height": 0,
 			"max-height": 255,
 			"retrogen": "true",
