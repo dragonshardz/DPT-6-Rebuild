@@ -73,19 +73,6 @@ recipes.addShaped("ReinforcedUpgrade", <thermalfoundation:upgrade:1>,
 	[ingotGraphite, gearSilver, ingotGraphite],
 	[glassHardened, <ore:plateGold>, glassHardened]]);
 
-
-// remove induction smelter steel recipes
-
-InductionSmelter.removeRecipe(dustIronTF, dustCoalTF * 4);
-InductionSmelter.removeRecipe(dustIronTF, dustCharcoalTF * 4);
-
-InductionSmelter.removeRecipe(ingotIron, dustCoalTF * 4);
-InductionSmelter.removeRecipe(ingotIron, dustCharcoalTF * 4);
-
-InductionSmelter.removeRecipe(ingotIron, cokeTF);
-InductionSmelter.removeRecipe(dustIronTF, cokeTF);
-
-
 //replace Device and Machine frames
 
 recipes.remove(frame);
@@ -145,10 +132,6 @@ recipes.remove(<thermalfoundation:material:293>);
 recipes.remove(<thermalfoundation:material:294>);
 recipes.remove(<thermalfoundation:material:295>);
 recipes.remove(<redstonearsenal:material:96>);
-
-// Remove signalum and enderium recipes
-recipes.remove(<thermalfoundation:material:103>);
-recipes.remove(<thermalfoundation:material:101>);
 
 //remove thaumcraft plate crafting
 recipes.remove(<thaumcraft:plate:*>);
