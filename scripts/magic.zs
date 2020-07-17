@@ -39,11 +39,11 @@ var magicBench		= <thaumcraft:arcane_workbench>;
 crystalEssence.add(<thaumcraft:crystal_aer>,<thaumcraft:crystal_ignis>,<thaumcraft:crystal_aqua>,<thaumcraft:crystal_terra>,<thaumcraft:crystal_ordo>,<thaumcraft:crystal_perditio>,<thaumcraft:crystal_vitium>);
 	
 //alter totemic staff
-recipes.remove(totemStaff);
-recipes.addShaped("Totemic Staff", totemStaff,
-	[[null, crystalEssence, vines],
-	[null, livingTwig, null],
-	[livingTwig, null, feather]]);
+//recipes.remove(totemStaff);
+//recipes.addShaped("Totemic Staff", totemStaff,
+//	[[null, crystalEssence, vines],
+//	[null, livingTwig, null],
+//	[livingTwig, null, feather]]);
 	
 //alter arcane workbench
 recipes.remove(magicBench);
