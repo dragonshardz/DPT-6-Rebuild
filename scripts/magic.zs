@@ -11,6 +11,7 @@ var itemMap			= <minecraft:map>;
 var blockPumpkin	= <ore:cropPumpkin>;
 var nuggetThaumium	= <ore:nuggetThaumium>;
 var gemAquamarine	= <ore:gemAquamarine>;
+var cobblestone		= <ore:cobblestone>;
 var blockLapis		= <minecraft:lapis_block>;
 var carpetPurple	= <minecraft:carpet:10>;
 var mirrorGlass		= <thaumcraft:mirrored_glass>;
@@ -23,6 +24,7 @@ var glassLens		= <astralsorcery:itemcraftingcomponent:3>;
 var enderPearl		= <minecraft:ender_pearl>;
 var stickWood		= <ore:stickWood>;
 var dyeYellow		= <ore:dyeYellow>;
+var cobSlab			= <ore:slabCobblestone>;
 var fuckinBook		= <minecraft:book>;
 var livingwood		= <botania:livingwood>;
 var livingTwig		= <botania:manaresource:3>;
@@ -37,6 +39,13 @@ var magicBench		= <thaumcraft:arcane_workbench>;
 
 //add worldgen vis crystals to oredict
 crystalEssence.add(<thaumcraft:crystal_aer>,<thaumcraft:crystal_ignis>,<thaumcraft:crystal_aqua>,<thaumcraft:crystal_terra>,<thaumcraft:crystal_ordo>,<thaumcraft:crystal_perditio>,<thaumcraft:crystal_vitium>);
+
+//alter petal apothecary
+recipes.remove(botania.altar);
+recipes.addShaped("", botania.altar,
+	[[cobSlab, thaumcraft:crystal_terra, cobSlab],
+	[null, cobblestone, null],
+	[cobblestone, cobblestone, cobblestone]]);
 	
 //alter totemic staff
 //recipes.remove(totemStaff);
