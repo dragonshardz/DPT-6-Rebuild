@@ -1,3 +1,6 @@
+import mods.immersiveengineering.Crusher;
+import mods.immersiveengineering.CokeOven;
+import mods.appliedenergistics2.Grinder;
 
 var brick_block 	= <minecraft:brick_block>;
 var clay 			= <minecraft:clay_ball>;
@@ -23,10 +26,15 @@ var gravel			= <ore:gravel>;
 var slag			= <ore:itemSlag>;
 var blockAsphalt	= <immersivepetroleum:stone_decoration>;
 var dustSulfur		= <immersiveengineering:material:25>;
+var dustNitrate		= <immersiveengineering:material:24>;
+var SandAE			= <minecraft:sand>;
 
 //////////////////////
 //  Basic  recipes  //
 //////////////////////
+//add methods to make sulfur and niter with low-tech muscle powah!
+Grinder.addRecipe(dustSulfur,netherrack,8);
+Grinder.addRecipe(SandAE,sandstone,8,dustNitrate,50);
 
 recipes.remove(cokeBrick);
 recipes.addShaped("CokeBrick", cokeBrick * 3, 
@@ -45,15 +53,15 @@ recipes.addShaped("BlastBrick", blastBrick * 3,
 //  Crusher recipes  //
 ///////////////////////
 
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:sand>, <ore:gravel>, 1000);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:wheat_seeds>, <minecraft:wheat>, 500);
-mods.immersiveengineering.Crusher.addRecipe(dustSulfur * 2, netherrack, 1000);
+Crusher.addRecipe(<minecraft:sand>, <ore:gravel>, 1000);
+Crusher.addRecipe(<minecraft:wheat_seeds>, <minecraft:wheat>, 500);
+Crusher.addRecipe(dustSulfur * 2, netherrack, 1000);
 
 ///////////////////////////
 //   Coke Oven recipes   //
 ///////////////////////////
-mods.immersiveengineering.CokeOven.removeRecipe(charcoal);
-mods.immersiveengineering.CokeOven.addRecipe(charcoal * 2, 200, <ore:logWood>, 2000);
+CokeOven.removeRecipe(charcoal);
+CokeOven.addRecipe(charcoal * 2, 200, <ore:logWood>, 2000);
 
 //add corn ethanol
 mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 120, <harvestcraft:cornitem>, 2048);
