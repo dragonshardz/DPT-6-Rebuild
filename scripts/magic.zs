@@ -29,6 +29,13 @@ var fuckinBook		= <minecraft:book>;
 var livingwood		= <botania:livingwood>;
 var livingTwig		= <botania:manaresource:3>;
 var vines			= <minecraft:vine>;
+var greatwood		= <thaumcraft:log_greatwood>;
+var boneShard		= <tconstruct:shard>.withTag({Material: "bone"});
+var visTerra		= <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]});
+var stone			= <ore:stone>;
+var bowl			= <ore:bowlWood>;
+var botaniaPetal	= <botania:petal>;
+var botaniaShroom	= <botania:mushroom>;
 
 //#Outputs
 var starlightWand	= <astralsorcery:itemwand>.withTag({astralsorcery: {}});
@@ -36,23 +43,28 @@ var lookingGlass	= <astralsorcery:itemhandtelescope>;
 var totemStaff		= <totemic:totemic_staff>;
 var crystalEssence	= <ore:crystalEssence>;
 var magicBench		= <thaumcraft:arcane_workbench>;
+var petalAltar		= <botania:altar:0>;
 
 //add worldgen vis crystals to oredict
 crystalEssence.add(<thaumcraft:crystal_aer>,<thaumcraft:crystal_ignis>,<thaumcraft:crystal_aqua>,<thaumcraft:crystal_terra>,<thaumcraft:crystal_ordo>,<thaumcraft:crystal_perditio>,<thaumcraft:crystal_vitium>);
 
 //alter petal apothecary
-recipes.remove(botania.altar);
-recipes.addShaped("", botania.altar,
-	[[cobSlab, thaumcraft:crystal_terra, cobSlab],
+recipes.remove(petalAltar);
+recipes.addShaped("", petalAltar,
+	[[visTerra, bowl, botaniaPetal],
 	[null, cobblestone, null],
-	[cobblestone, cobblestone, cobblestone]]);
+	[stone, stone, stone]]);
+recipes.addShaped("", petalAltar,
+	[[visTerra, bowl, botaniaShroom],
+	[null, cobblestone, null],
+	[stone, stone, stone]]);
 	
 //alter totemic staff
-//recipes.remove(totemStaff);
-//recipes.addShaped("Totemic Staff", totemStaff,
-//	[[null, crystalEssence, vines],
-//	[null, livingTwig, null],
-//	[livingTwig, null, feather]]);
+recipes.remove(totemStaff);
+recipes.addShaped("Totemic Staff", totemStaff,
+	[[null, feather, greatwood],
+	[null, stickWood, vines],
+	[stickWood, null, boneShard]]);
 	
 //alter arcane workbench
 recipes.remove(magicBench);
