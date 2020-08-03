@@ -34,7 +34,7 @@ var SandAE			= <minecraft:sand>;
 //////////////////////
 //add methods to make sulfur and niter with low-tech muscle powah!
 Grinder.addRecipe(dustSulfur,netherrack,8);
-Grinder.addRecipe(SandAE,sandstone,8,dustNitrate,50);
+Grinder.addRecipe(SandAE,sandstone,8,dustNitrate,0.5);
 
 recipes.remove(cokeBrick);
 recipes.addShaped("CokeBrick", cokeBrick * 3, 
