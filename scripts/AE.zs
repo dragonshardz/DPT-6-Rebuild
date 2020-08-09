@@ -119,9 +119,6 @@ Inscriber.removeRecipe(engpress);
 Inscriber.removeRecipe(siliconpress);
 
 //hide deprecated ExtraCells and AdvRocketry items
-JEI.hide(<advancedrocketry:datapipe>);
-JEI.hide(<advancedrocketry:energypipe>);
-JEI.hide(<advancedrocketry:liquidpipe>);
 JEI.hide(<extracells:part.base:0>);
 JEI.hide(<extracells:part.base:1>);
 JEI.hide(<extracells:part.base:2>);

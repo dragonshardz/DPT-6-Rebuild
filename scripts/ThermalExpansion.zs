@@ -1,6 +1,7 @@
 import mods.thermalexpansion.InductionSmelter;
 import mods.thermalexpansion.Insolator;
 import mods.tconstruct.Alloy;
+import mods.thermalexpansion.Compactor;
 
 # Ingots
 var ingotIron 		= <minecraft:iron_ingot>;
@@ -22,6 +23,8 @@ var dustIronIE		= <immersiveengineering:metal:18>;
 var dustIronTF		= <thermalfoundation:material>;
 var dustCoalTF 		= <thermalfoundation:material:768>;
 var dustCharcoalTF 	= <thermalfoundation:material:769>;
+var HOPdust			= <immersiveengineering:material:18>;
+var cokedust		= <immersiveengineering:material:17>;
 
 # TE Mats
 var frame			= <thermalexpansion:frame:64>;
@@ -135,6 +138,7 @@ recipes.remove(<redstonearsenal:material:96>);
 
 //remove thaumcraft plate crafting
 recipes.remove(<thaumcraft:plate:*>);
+Compactor.addPressRecipe(HOPdust, cokedust*8, 1500);
 
 //add bluebells to phytogenic insolator
 Insolator.addRecipe(<natura:bluebells_flower> * 3, <natura:bluebells_flower>, <thermalfoundation:fertilizer:0>, 4800);
