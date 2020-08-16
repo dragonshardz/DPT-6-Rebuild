@@ -304,16 +304,16 @@ ArcFurnace.addRecipe(ingotElectrum*4, dustGold, slag, 100, 1048, [ingotSilver], 
 ArcFurnace.addRecipe(ingotElectrum*4, dustGold, slag, 100, 1048, [dustSilver], "Alloying");
 
 //signalum
-ArcFurnace.addRecipe(ingotSignalum*8, dustSilver, slag, 100, 4048, [dustCopper*3,dustRedstone], "Alloying");
+ArcFurnace.addRecipe(ingotSignalum*8, ingotSilver, slag, 100, 4048, [ingotCopper*3,dustRedstone], "Alloying");
 
 //lumium
-ArcFurnace.addRecipe(ingotLumium*8, dustSilver, slag, 100, 4048, [dustTin*3, dustGlowstone], "Alloying");
+ArcFurnace.addRecipe(ingotLumium*8, ingotSilver, slag, 100, 4048, [ingotTin*3, dustGlowstone], "Alloying");
 
 //enderium
-ArcFurnace.addRecipe(ingotEnderium*8, dustPlatinum, slag, 100, 4048, [dustLead*2, endPearl], "Alloying");
+ArcFurnace.addRecipe(ingotEnderium*8, ingotPlatinum, slag, 100, 4048, [ingotLead*2, endPearl], "Alloying");
 
 //electrum fluxed
-ArcFurnace.addRecipe(ingotElecFlux, dustSilver, slag, 100, 4048, [dustGold, dustRedstone], "Alloying");
+ArcFurnace.addRecipe(ingotElecFlux, ingotSilver, slag, 100, 4048, [ingotGold, dustRedstone], "Alloying");
 
 //bronze
 ArcFurnace.addRecipe(ingotBronze*8, ingotCopper*3, slag, 100, 1048, [ingotTin], "Alloying");
